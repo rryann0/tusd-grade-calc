@@ -4,71 +4,28 @@ document.addEventListener("DOMContentLoaded", () => {
     const calculateGPAButton = document.getElementById("calculate-gpa");
     const gpaResult = document.getElementById("gpa-result");
 
-    const gradePointMap = {
-        "A": 4.0,
-        "B": 3.0,
-        "C": 2.0,
-        "D": 1.0,
-        "F": 0.0
-    };
-
-    const classTypeWeight = {
-        regular: 1.0,
-        honors: 1.25,
-        ap: 1.25,
-        dual: 1.0,
-        dualPartner: 1.25
-    };
-
-    const classLengthMultiplier = {
-        semester: 5,
-        year: 10,
-        quarter: 2.5
-    };
-
-    addClassButton.addEventListener("click", () => {
-        const classEntry = document.createElement("div");
-        classEntry.classList.add("class-entry");
-        classEntry.innerHTML = `
-            <input type="text" placeholder="Class Name" class="class-name" required>
-
-            <div class="header-group">
-                <div class="class-entry-header">Class Type</div>
-                <select class="class-type">
-                    <option value="regular">Regular</option>
-                    <option value="honors">Honors</option>
-                    <option value="ap">AP</option>
-                    <option value="dual">Dual Enrollment</option>
-                    <option value="dualPartner">Dual Enrollment Partnership</option>
-                </select>
-            </div>
-
-            <div class="header-group">
-                <div class="class-entry-header">Duration</div>
-                <select class="class-duration">
-                    <option value="semester">Semester</option>
-                    <option value="year">Year</option>
-                    <option value="quarter">Quarter</option>
-                </select>
-            </div>
-
-            <div class="header-group">
-                <div class="class-entry-header">Grade</div>
-                <select class="class-grade">
-                    <option value="A">A</option>
-                    <option value="B">B</option>
-                    <option value="C">C</option>
-                    <option value="D">D</option>
-                    <option value="F">F</option>
-                </select>
-            </div>
-
-            <button type="button" class="remove-class">Remove</button>
-        `;
-        classEntry.querySelector(".remove-class").addEventListener("click", () => {
-            classEntry.remove();
+    fetch('classes.json')
+        .then((response) => response.json())
+        .then((classes) => {
+            const classSelect = document.getElementById('class-select');
+            
+            classes.forEach((cls) => {
+                const option = document.createElement('option');
+                option.value = JSON.stringify(cls);
+                option.textContent = '${cls.name} (${cls.type})';
+                classSelect.appendChild(option);
+            });
         });
-        classEntries.appendChild(classEntry);
+
+    document.getElementById('add-class-btn').addEventListener('click', () => {
+        const selectedClass = document.getElementById('class-select').value;
+
+        if (selectedClass) {
+            const classData = JSON.parse(selectedClass);
+            console.log('Added Class: ', classData);
+        } else {
+            alert('Please select a class.');
+        }
     });
 
     calculateGPAButton.addEventListener("click", () => {
@@ -103,14 +60,14 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener('DOMContentLoaded', () => {
     // Graduation Requirements Data
     const graduationRequirements = {
-        Math: 20, // Example: 30 credits
+        Math: 20,
         Science: 20,
         English: 40,
         History: 30,
         Health: 5,
         PE: 20,
         ArtLanguage: 10,
-        Electives: 75,
+        Total: 220,
     };
 
     // Store entered classes

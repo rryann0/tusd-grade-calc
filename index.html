@@ -5,43 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TUSD Academic Calculator</title>
     <link rel="stylesheet" href="index.css">
-    <style>
-        .class-entry {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 10px;
-        }
-
-        .class-entry select, .class-entry input {
-            padding: 5px;
-        }
-
-        .class-entry button {
-            padding: 5px 10px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .class-entry button:hover {
-            background-color: #45a049;
-        }
-
-        .class-entry-header {
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        .header-group {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            margin-right: 15px;
-        }
-    </style>
 </head>
 
 <body>
@@ -64,28 +27,12 @@
             <form id="gpa-form">
                 <div id="class-entries">
                     <div class="class-entry">
-                        <input type="text" placeholder="Class Name" class="class-name" required>
-
                         <div class="header-group">
-                            <div class="class-entry-header">Class Type</div>
-                            <select class="class-type">
-                                <option value="regular">Regular</option>
-                                <option value="honors">Honors</option>
-                                <option value="ap">AP</option>
-                                <option value="dual">Dual Enrollment</option>
-                                <option value="dualPartner">Dual Enrollment Partnership</option>
+                            <div class="class-entry-header">Select Class</div>
+                            <select id="class-select">
+                                <option value="" disabled selected>Choose a class</option>
                             </select>
                         </div>
-
-                        <div class="header-group">
-                            <div class="class-entry-header">Duration</div>
-                            <select class="class-duration">
-                                <option value="semester">Semester</option>
-                                <option value="year">Year</option>
-                                <option value="quarter">Quarter</option>
-                            </select>
-                        </div>
-
                         <div class="header-group">
                             <div class="class-entry-header">Grade</div>
                             <select class="class-grade">
@@ -97,10 +44,7 @@
                             </select>
                         </div>
 
-                        <button type="button" class="remove-class">Remove</button>
-                    </div>
-                </div>
-                <button type="button" id="add-class">Add Class</button>
+                        <button type="button" id="add-class-btn">Add Class</button>
                 <button type="button" id="calculate-gpa">Calculate GPA</button>
             </form>
             <div id="gpa-result"></div>

@@ -1,0 +1,1108 @@
+[
+    {
+        "name": "Commercial Photography 1",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Commercial Photography 2",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Beginning Theatre Arts",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Intermediate Theatre Arts",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Advanced Theatre Arts",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Video Production 1",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Video Production 2",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Wood Design 1",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Wood Design 2",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Vocational Cabinet Making",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Web/Social Media",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Yearbook Design and Publishing",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP Computer Science Principles",
+        "subject": "Elective",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Cybersecurity Honors",
+        "subject": "Elective",
+        "type": "Honors",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Intro to Engineering Design",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Principles of Engineering",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Aerospace Engineering Honors",
+        "subject": "Elective",
+        "type": "Honors",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Engineering Design/Development Honors",
+        "subject": "Elective",
+        "type": "Honors",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Sports Therapy",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Sports Therapy Practicum",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Foods & Nutrition 1",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Foods & Nutrition 2",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "English 1",
+        "subject": "English",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "English 1 Honors",
+        "subject": "English",
+        "type": "Honors",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "English 2 World Literature",
+        "subject": "English",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "English 2 World Literature Honors",
+        "subject": "English",
+        "type": "Honors",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "English 2 Ethnic Literature",
+        "subject": "English",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "English 2 Ethnic Literature Honors",
+        "subject": "English",
+        "type": "Honors",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "English 3",
+        "subject": "English",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "English 4",
+        "subject": "English",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP English Language & Composition",
+        "subject": "English",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP English Literature & Composition",
+        "subject": "English",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "English 1A (El Camino)",
+        "subject": "English",
+        "type": "Dual Enrollment (Partnership)",
+        "duration": "Semester",
+        "credits": 10
+    },
+    {
+        "name": "English 1C (El Camino)",
+        "subject": "English",
+        "type": "Dual Enrollment (Partnership)",
+        "duration": "Semester",
+        "credits": 10
+    },
+    {
+        "name": "Creative Writing 1",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Creative Writing 2",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Journalism 1",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Advanced Journalism",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Algebra 1",
+        "subject": "Math",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Algebra 2",
+        "subject": "Math",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Algebra 2 Honors",
+        "subject": "Math",
+        "type": "Honors",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Geometry",
+        "subject": "Math",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Geometry Honors",
+        "subject": "Math",
+        "type": "Honors",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Precalculus",
+        "subject": "Math",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Precalculus Honors",
+        "subject": "Math",
+        "type": "Honors",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Calculus",
+        "subject": "Math",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP Calculus AB",
+        "subject": "Math",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP Calculus BC",
+        "subject": "Math",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Multivariable Calculus",
+        "subject": "Math",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Trigonometry",
+        "subject": "Math",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Introduction to Data Science",
+        "subject": "Math",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP Statistics",
+        "subject": "Math",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP Computer Science A",
+        "subject": "Math",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Financial Algebra",
+        "subject": "Math",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "PE 9",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "PE 10-12",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Junior ROTC 1",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Beginning Dance",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Intermediate Dance",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "PE Band (Marching Band)",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Semester",
+        "credits": 5
+    },
+    {
+        "name": "Show Choir PE",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Drill Team",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Pep Squad (Cheer)",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Cross Country",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Football",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Girls' Flag Football",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Golf",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Tennis",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Volleyball",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Basketball",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Soccer",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Surf",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Wrestling",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Baseball",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Softball",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Swimming",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Track and Field",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Water Polo",
+        "subject": "PE/Sport",
+        "type": "Regular",
+        "duration": "Quarter",
+        "credits": 2.5
+    },
+    {
+        "name": "Health",
+        "subject": "Health",
+        "type": "Regular",
+        "duration": "Semester",
+        "credits": 5
+    },
+    {
+        "name": "Biology: The Living Earth",
+        "subject": "Science",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Honors Biology: The Living Earth",
+        "subject": "Science",
+        "type": "Honors",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Chemistry of the Earth",
+        "subject": "Science",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Honors Chemistry of the Earth",
+        "subject": "Science",
+        "type": "Honors",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Earth and Space Science",
+        "subject": "Science",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Physics of the Universe",
+        "subject": "Science",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP Biology",
+        "subject": "Science",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP Chemistry",
+        "subject": "Science",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP Environmental Science",
+        "subject": "Science",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP Physics 1",
+        "subject": "Science",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP Physics C",
+        "subject": "Science",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Anatomy & Physiology",
+        "subject": "Science",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Marine Science",
+        "subject": "Science",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "World History A/B",
+        "subject": "Social Studies",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP World History",
+        "subject": "Social Studies",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "US History A/B",
+        "subject": "Social Studies",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP US History",
+        "subject": "Social Studies",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "US Government",
+        "subject": "Social Studies",
+        "type": "Regular",
+        "duration": "Semester",
+        "credits": 5
+    },
+    {
+        "name": "Economics",
+        "subject": "Social Studies",
+        "type": "Regular",
+        "duration": "Semester",
+        "credits": 5
+    },
+    {
+        "name": "AP US Government and Politics",
+        "subject": "Social Studies",
+        "type": "AP",
+        "duration": "Semester",
+        "credits": 5
+    },
+    {
+        "name": "AP Economics",
+        "subject": "Social Studies",
+        "type": "AP",
+        "duration": "Semester",
+        "credits": 5
+    },
+    {
+        "name": "Psychology",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP Psychology",
+        "subject": "Social Studies",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP Human Geography",
+        "subject": "Social Studies",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "World Geography A",
+        "subject": "Social Studies",
+        "type": "Regular",
+        "duration": "Semester",
+        "credits": 5
+    },
+    {
+        "name": "Intro to Ethnic Studies",
+        "subject": "Social Studies",
+        "type": "Regular",
+        "duration": "Semester",
+        "credits": 5
+    },
+    {
+        "name": "Beginning English Workshop",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Intermediate English Workshop",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Advanced English Workshop",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "EL Intervention",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Art 1",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Art 2",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Art 3",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP Studio Art",
+        "subject": "Fine Art",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Beginning Ceramics",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Advanced Ceramics",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Advanced Dance",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Advanced Band",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Wind Ensemble",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Jazz Band",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Percussion Ensemble & Color Guard",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Semester",
+        "credits": 5
+    },
+    {
+        "name": "Beginning Instruments",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Beginning Choir (Spartan Choir)",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Advanced Choir (Southland Singers)",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP Music Theory",
+        "subject": "Fine Art",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Fine Arts Seminar",
+        "subject": "Fine Art",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "French 1",
+        "subject": "World Language",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "French 2",
+        "subject": "World Language",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "French 3",
+        "subject": "World Language",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "French 3 Honors",
+        "subject": "World Language",
+        "type": "Honors",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "French 4",
+        "subject": "World Language",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP French Language & Culture",
+        "subject": "World Language",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Japanese 1",
+        "subject": "World Language",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Japanese 2",
+        "subject": "World Language",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Japanese 3",
+        "subject": "World Language",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Japanese 4 Honors",
+        "subject": "World Language",
+        "type": "Honors",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP Japanese Language",
+        "subject": "World Language",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Korean 1",
+        "subject": "World Language",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Korean 2",
+        "subject": "World Language",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Korean 3 Honors",
+        "subject": "World Language",
+        "type": "Honors",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Korean 4/5",
+        "subject": "World Language",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Korean 4/5 Honors",
+        "subject": "World Language",
+        "type": "Honors",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Spanish 1",
+        "subject": "World Language",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Spanish 2",
+        "subject": "World Language",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Spanish 3",
+        "subject": "World Language",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Spanish 3 Honors",
+        "subject": "World Language",
+        "type": "Honors",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Spanish 4",
+        "subject": "World Language",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "AP Spanish Language",
+        "subject": "World Language",
+        "type": "AP",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "American Sign Language 1",
+        "subject": "World Language",
+        "type": "Dual Enrollment (Partnership)",
+        "duration": "Semester",
+        "credits": 10
+    },
+    {
+        "name": "American Sign Language 2",
+        "subject": "World Language",
+        "type": "Dual Enrollment (Partnership)",
+        "duration": "Semester",
+        "credits": 10
+    },
+    {
+        "name": "Elementary Chinese 1",
+        "subject": "World Language",
+        "type": "Dual Enrollment (Partnership)",
+        "duration": "Semester",
+        "credits": 10
+    },
+    {
+        "name": "Elementary Chinese 2",
+        "subject": "World Language",
+        "type": "Dual Enrollment (Partnership)",
+        "duration": "Semester",
+        "credits": 10
+    },
+    {
+        "name": "Intermediate Chinese 1",
+        "subject": "World Language",
+        "type": "Dual Enrollment (Partnership)",
+        "duration": "Semester",
+        "credits": 10
+    },
+    {
+        "name": "Intermediate Conversational Chinese",
+        "subject": "World Language",
+        "type": "Dual Enrollment (Partnership)",
+        "duration": "Semester",
+        "credits": 10
+    },
+    {
+        "name": "Intro to Chinese Language & Culture",
+        "subject": "World Language",
+        "type": "Dual Enrollment (Partnership)",
+        "duration": "Semester",
+        "credits": 10
+    },
+    {
+        "name": "Academic Decathlon",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Leadership/ASB (Class/Student Council)",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Speech & Debate (Forensics)",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    },
+    {
+        "name": "Work Experience",
+        "subject": "Elective",
+        "type": "Regular",
+        "duration": "Year",
+        "credits": 10
+    }
+]

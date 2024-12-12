@@ -1,0 +1,120 @@
+JS FILE:
+    const gradePointMap = {
+        "A": 4.0,
+        "B": 3.0,
+        "C": 2.0,
+        "D": 1.0,
+        "F": 0.0
+    };
+
+    const classTypeWeight = {
+        regular: 1.0,
+        honors: 1.25,
+        ap: 1.25,
+        dual: 1.0,
+        dualPartner: 1.25
+    };
+
+    const classLengthMultiplier = {
+        semester: 5,
+        year: 10,
+        quarter: 2.5
+    };
+
+
+    addClassButton.addEventListener("click", () => {
+        const classEntry = document.createElement("div");
+        classEntry.classList.add("class-entry");
+        classEntry.innerHTML = `
+            <input type="text" placeholder="Class Name" class="class-name" required>
+
+            <div class="header-group">
+                <div class="class-entry-header">Class Type</div>
+                <select class="class-type">
+                    <option value="regular">Regular</option>
+                    <option value="honors">Honors</option>
+                    <option value="ap">AP</option>
+                    <option value="dual">Dual Enrollment</option>
+                    <option value="dualPartner">Dual Enrollment Partnership</option>
+                </select>
+            </div>
+
+            <div class="header-group">
+                <div class="class-entry-header">Duration</div>
+                <select class="class-duration">
+                    <option value="semester">Semester</option>
+                    <option value="year">Year</option>
+                    <option value="quarter">Quarter</option>
+                </select>
+            </div>
+
+            <div class="header-group">
+                <div class="class-entry-header">Grade</div>
+                <select class="class-grade">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="F">F</option>
+                </select>
+            </div>
+
+            <button type="button" class="remove-class">Remove</button>
+        `;
+        classEntry.querySelector(".remove-class").addEventListener("click", () => {
+            classEntry.remove();
+        });
+        classEntries.appendChild(classEntry);
+    });
+
+HTML FILE:
+        <section id="gpa-prediction">
+            <h2>Weighted GPA Calculator</h2>
+            <form id="gpa-form">
+                <div id="class-entries">
+                    <div class="class-entry">
+                        <input type="text" placeholder="Class Name" class="class-name" required>
+
+                        <div class="header-group">
+                            <div class="class-entry-header">Class Type</div>
+                            <select class="class-type">
+                                <option value="regular">Regular</option>
+                                <option value="honors">Honors</option>
+                                <option value="ap">AP</option>
+                                <option value="dual">Dual Enrollment</option>
+                            </select>
+                        </div>
+
+                        <div class="header-group">
+                            <div class="class-entry-header">Class Length</div>
+                            <select class="class-duration">
+                                <option value="semester">Semester</option>
+                                <option value="year">Year</option>
+                                <option value="quarter">Quarter</option>
+                            </select>
+                        </div>
+
+                        <div class="header-group">
+                            <div class="class-entry-header">Grade</div>
+                            <select class="class-grade">
+                                <option value="A">A</option>
+                                <option value="A-">A-</option>
+                                <option value="B+">B+</option>
+                                <option value="B">B</option>
+                                <option value="B-">B-</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="C-">C-</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                        </div>
+
+                        <button type="button" class="remove-class">Remove</button>
+                    </div>
+                </div>
+                <button type="button" id="add-class">Add Class</button>
+                <button type="button" id="calculate-gpa">Calculate GPA</button>
+            </form>
+            <div id="gpa-result"></div>
+        </section>
