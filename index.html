@@ -5,6 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TUSD Academic Calculator</title>
     <link rel="stylesheet" href="index.css">
+    <style>
+        .class-entry {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .class-entry select, .class-entry input {
+            padding: 5px;
+        }
+
+        .class-entry button {
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .class-entry button:hover {
+            background-color: #45a049;
+        }
+
+        .class-entry-header {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .header-group {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-right: 15px;
+        }
+    </style>
 </head>
 
 <body>
@@ -23,17 +60,48 @@
         <!-- GPA Prediction Section -->
         <section id="gpa-prediction">
             <h2>Weighted GPA Calculator</h2>
+            <p>Do not enter PE/Sports grades. Check the About section for more details.</p>
             <form id="gpa-form">
-                <label for="current-gpa">Current GPA:</label>
-                <input type="number" id="current-gpa" step="0.01" min="0" max="4" required>
+                <div id="class-entries">
+                    <div class="class-entry">
+                        <input type="text" placeholder="Class Name" class="class-name" required>
 
-                <label for="total-credits">Total Credits Completed:</label>
-                <input type="number" id="total-credits" min="0" required>
+                        <div class="header-group">
+                            <div class="class-entry-header">Class Type</div>
+                            <select class="class-type">
+                                <option value="regular">Regular</option>
+                                <option value="honors">Honors</option>
+                                <option value="ap">AP</option>
+                                <option value="dual">Dual Enrollment</option>
+                                <option value="dualPartner">Dual Enrollment Partnership</option>
+                            </select>
+                        </div>
 
-                <label for="future-grades">Projected Future Grades:</label>
-                <textarea id="future-grades" placeholder="e.g., A, B+, A-" required></textarea>
+                        <div class="header-group">
+                            <div class="class-entry-header">Duration</div>
+                            <select class="class-duration">
+                                <option value="semester">Semester</option>
+                                <option value="year">Year</option>
+                                <option value="quarter">Quarter</option>
+                            </select>
+                        </div>
 
-                <button type="button" id="calculate-gpa">Calculate Future GPA</button>
+                        <div class="header-group">
+                            <div class="class-entry-header">Grade</div>
+                            <select class="class-grade">
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                        </div>
+
+                        <button type="button" class="remove-class">Remove</button>
+                    </div>
+                </div>
+                <button type="button" id="add-class">Add Class</button>
+                <button type="button" id="calculate-gpa">Calculate GPA</button>
             </form>
             <div id="gpa-result"></div>
         </section>
@@ -41,17 +109,15 @@
         <!-- Graduation Requirements Section -->
         <section id="graduation-requirements">
             <h2>Graduation Requirements</h2>
-            <form id="requirements-form">
-                <label for="completed-courses">Courses Completed:</label>
-                <textarea id="completed-courses" placeholder="e.g., Math, Science" required></textarea>
-
-                <label for="remaining-courses">Remaining Requirements:</label>
-                <textarea id="remaining-courses" placeholder="e.g., English, History"></textarea>
-
-                <button type="button" id="check-requirements">Update Progress</button>
-            </form>
-            <div id="requirements-status"></div>
-        </section>
+            <p>After entering your classes in the GPA Calculator, use this section to track graduation progress.</p>
+            <button type="button" id="check-requirements">Check Graduation Progress</button>
+            <div id="requirements-status">
+                <h3>Graduation Progress</h3>
+                <ul id="requirement-list">
+                    <!-- Requirements will be dynamically populated here -->
+                </ul>
+            </div>
+        </section>        
 
         <!-- Final Grade Calculator Section -->
         <section id="final-grade">
@@ -59,18 +125,18 @@
             <form id="grade-form">
                 <label for="current-grade">Current Grade (%):</label>
                 <input type="number" id="current-grade" min="0" max="100" required>
-
+        
                 <label for="exam-weight">Final Exam Weight (%):</label>
                 <input type="number" id="exam-weight" min="0" max="100" required>
-
-                <label for="exam-grade">Expected Exam Grade (%):</label>
-                <input type="number" id="exam-grade" min="0" max="100" required>
-
-                <button type="button" id="calculate-final-grade">Calculate Final Grade</button>
+        
+                <label for="desired-grade">Desired Final Grade (%):</label>
+                <input type="number" id="desired-grade" min="0" max="100" required>
+        
+                <button type="button" id="calculate-final-grade">Calculate Required Final Grade</button>
             </form>
             <div id="final-grade-result"></div>
         </section>
-
+        
         <!-- About Section -->
         <section id="about">
             <h2>About</h2>
@@ -92,5 +158,6 @@
             <p>Created by Ryan Lee, c/o 2027.</p>
         </section>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
