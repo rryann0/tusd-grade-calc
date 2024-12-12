@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUSD Academic Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#gpa-prediction">GPA/Graduation Calculator</a></li>
+                <li><a href="#final-grade">Final Grade Calculator</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <h1>TUSD Academic Calculator</h1>
+    </header>
+    
+    <main>
+        <!-- GPA Prediction Section -->
+        <section id="gpa-prediction">
+            <h2>Weighted GPA Calculator</h2>
+            <form id="gpa-form">
+                <label for="current-gpa">Current GPA:</label>
+                <input type="number" id="current-gpa" step="0.01" min="0" max="4" required>
+
+                <label for="total-credits">Total Credits Completed:</label>
+                <input type="number" id="total-credits" min="0" required>
+
+                <label for="future-grades">Projected Future Grades:</label>
+                <textarea id="future-grades" placeholder="e.g., A, B+, A-" required></textarea>
+
+                <button type="button" id="calculate-gpa">Calculate Future GPA</button>
+            </form>
+            <div id="gpa-result"></div>
+        </section>
+
+        <!-- Graduation Requirements Section -->
+        <section id="graduation-requirements">
+            <h2>Graduation Requirements</h2>
+            <form id="requirements-form">
+                <label for="completed-courses">Courses Completed:</label>
+                <textarea id="completed-courses" placeholder="e.g., Math, Science" required></textarea>
+
+                <label for="remaining-courses">Remaining Requirements:</label>
+                <textarea id="remaining-courses" placeholder="e.g., English, History"></textarea>
+
+                <button type="button" id="check-requirements">Update Progress</button>
+            </form>
+            <div id="requirements-status"></div>
+        </section>
+
+        <!-- Final Grade Calculator Section -->
+        <section id="final-grade">
+            <h2>Final Grade Calculator</h2>
+            <form id="grade-form">
+                <label for="current-grade">Current Grade (%):</label>
+                <input type="number" id="current-grade" min="0" max="100" required>
+
+                <label for="exam-weight">Final Exam Weight (%):</label>
+                <input type="number" id="exam-weight" min="0" max="100" required>
+
+                <label for="exam-grade">Expected Exam Grade (%):</label>
+                <input type="number" id="exam-grade" min="0" max="100" required>
+
+                <button type="button" id="calculate-final-grade">Calculate Final Grade</button>
+            </form>
+            <div id="final-grade-result"></div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About</h2>
+            <p>This tool helps students predict their GPA, track graduation requirements, and calculate final grades.</p>
+            <p><b>Calculator Info</b></p>
+            <ul>
+                <li>Regular classes are based on a 4.0 scale. (A = 4.0, B = 3.0, etc.)</li>
+                <li>Honors and AP classes are based on a 5.0 scale. (A = 5.0, B = 4.0, etc.)</li>
+                <li>Your "points" for a class are your scale number (5.0, 4.0, etc.) multiplied by the credit hours you received (10 for 1 semester).</li>
+                <li>Your weighted GPA is then calculated by averaging the sum of these "points" with your credit hours.</li>
+            </ul>
+
+            <p><b>Additional Info</b></p>
+            <ul>
+                <li>Dual enrollment classes outside of partnership classes (like history classes) are classified as regular classes.</li>
+                <li>PE/Sports classes are not counted towards your weighted GPA.</li>
+            </ul>
+
+            <p>Created by Ryan Lee, c/o 2027.</p>
+        </section>
+    </main>
+</body>
+</html>
